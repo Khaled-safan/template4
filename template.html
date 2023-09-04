@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>template with html & css & js</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="setting-box" id="setting-box">
+     <div class="gear" id="gear">
+        <i class="fa-sharp fa-solid fa-gear"></i>
+     </div>
+       
+     <div class="options">
+        <div class="option-color">
+            <h3>color</h3>
+            <ul>
+                <li data-color="red"class="active"></li>
+                <li data-color="green"></li>
+                <li data-color="blue" ></li>
+                <li data-color="orange" ></li>
+            </ul>
+        </div>
+        <div class="option-random">
+            <h3>option random</h3>
+            <div class="options">
+                <span class="active" data-option="Yes">Yes</span>
+                <span data-option="No">No</span>
+            </div>
+        </div>
+        <div class="option-photo">
+            <h3>option photo</h3>
+            <div class="options" id="optionsImags">
+               <img src="imags/images.jpg" class="active" alt="photo">
+               <img src="imags/images (3).jpg" alt="photo">
+               <img src="imags/images (9).jpg" alt="photo">
+               <img src="imags/images.png" alt="photo">
+            </div>
+        </div>
+        <div class="option-landing">
+            <h3>option landing</h3>
+            <div class="options">
+               <button data-option="Yes" class="Yes">Yes</button>
+               <button data-option="No" class="No active">No</button>
+            </div>
+        </div>
+     </div>
+</div>
+
+<div class="pullets">
+    <div class="pullet"  data-section="#Home">
+        <div class="circle active"></div>
+        <div class="pullet-info active">
+            Home
+        </div>
+    </div>
+    <div class="pullet" data-section=".services">
+        <div class="circle"></div>
+        <div class="pullet-info">
+            Services
+        </div>
+    </div>
+    <div class="pullet"  data-section=".about">
+        <div class="circle"></div>
+        <div class="pullet-info">
+            About
+        </div>
+    </div>
+    <div class="pullet" data-section=".skills">
+        <div class="circle"></div>
+        <div class="pullet-info">
+            Skills
+        </div>
+    </div>
+    <div class="pullet" data-section="#Gallery">
+        <div class="circle"></div>
+        <div class="pullet-info">
+            Gallery
+        </div>
+    </div>
+    <div class="pullet" data-section=".Contact">
+        <div class="circle"></div>
+        <div class="pullet-info">
+            Contact
+        </div>
+    </div>
+</div>
+     <div class="landing-page" id="Home">
+        <div class="lay"></div>
+        <div class="container">
+            <div class="header">
+            <div class="mark"></div>
+            <h2 class="logo">lOGO here</h2>
+
+            <div class="menu">
+                <div class="icon-menu">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            </div>
+            <div class="content">
+                <h1>Welcome </h1>
+                <span> to our  company</span>
+                <p>Lorem ipsum Quia, consequatur! perspiciatis dicta, tenetur laborum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, error?</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+        </div>
+      
+     <div class="services" id="Services">
+           <h1 class="special-head">our services</h1>
+           <div class="container">
+              <div class="boxs">
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <span>web design</span>
+                </div>
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-headset"></i>
+                    <span>adventising</span>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>game design</span>
+                </div>
+              </div>
+           </div>
+     </div>
+
+   <div class="about" id="About">
+     <h1 class="special-head">about us</h1>
+        <div class="container">
+            <div class="content">
+              <div class="imag">
+                <img id="photo" src="imags/images.jpg" alt="photo">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae veniam amet fuga natus, vel similique saepe dolor minima voluptas eligendi.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div> 
+            <div class="links">
+                <a href="#" class="active">hi@sourcecoder.com</a>
+                <a href="#">see design work</a>
+            </div>
+            </div>
+       
+        </div>
+    
+   </div>
+   <div class="skills" id="Skills">
+    <h1 class="special-head">our skills</h1>
+    <div class="container">
+       <div class="skill">
+        <span>HTML</span>
+        <div class="progress">
+            <span style="width: 0px;" data-progress="90%"></span>
+        </div>
+       </div>
+       <div class="skill">
+        <span>CSS</span>
+        <div class="progress">
+            <span style="width: 0px;" data-progress="80%"></span>
+        </div>
+       </div>
+       <div class="skill">
+        <span>JAVA</span>
+        <div class="progress">
+            <span style="width: 0px;" data-progress="70%"></span>
+        </div>
+       </div>
+    </div>
+   </div>
+<div class="Gallery" id="Gallery">
+    <h1 class="special-head">our gallery</h1>
+    <div class="container">
+        <div class="imag">
+            <img src="imags/10-Benefits-of-Ready-Website-Template-For-Your-Business.jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/313016.jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/1657858.jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/PerfectWebBannerAdfeaturedimage1.webp" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/images (18).jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/images (19).jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/images (20).jpg" alt="photo">
+        </div>
+        <div class="imag">
+            <img src="imags/images (24).jpg" alt="photo">
+        </div>
+    </div>
+</div>
+
+<div class="Contact" id="Contact">
+ <div class="container">
+   <div class="left">
+    <div class="info">
+        <h1>let's chat</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ab expedita laudantium corrupti. Repellat, vel. Repellat esse eius ut corrupti.</p>
+
+    </div>
+    
+  </div>
+  <div class="right">
+    <h1 class="special-head">contact</h1>
+    <form action="">
+        <input type="text" placeholder="Name *">
+        <input type="email" placeholder="Email *">
+        <input type="text" placeholder="Company">
+        <input type="tel" placeholder="phone">
+        <textarea placeholder="Messsage"></textarea>
+        <input type="submit" value="submit">
+    </form>
+  </div>
+ </div>   
+
+</div>
+
+<div class="footer">
+    <div class="container">
+            made by khaled
+    </div>
+</div>
+    <Script src="js/template.js"></Script>
+</body>
+</html>
+
